@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SJWEBCAMP</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/normalize.css">
-</head>
-<body>
-   
-        <header class="site-header">
-                <div class="hero">
-                  <div class="contenido-header">
-                    <nav class="redes-sociales">
-                     <a href="#"> <i class="fab fa-facebook-f" ></i> </a>
-                     <a href="#"> <i class="fab fa-twitter" ></i> </a>
-                     <a href="#"> <i class="fab fa-instagram" ></i> </a>
-                     <a href="#"> <i class="fab fa-youtube" ></i> </a>
-                     <a href="#"> <i class="fab fa-pinterest" ></i> </a>   
-                    </nav>
-                    
-                 <div class="informacion-evento">
-                        <div class="clearfix">
-                          <p class="fecha"> <i class="fa fa-calendar-check" > </i>01 Ago 2019</p>
-                          <p class="ciudad"><i class="fa fa-map-marker-alt" ></i>San José, CR</p>
-                        </div>
-                        
-                    <h1 class="nombre-sitio">SJWebCamp</h1>
-                    <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
-                    </div><!--Informacion Evento-->
-                    
-                  </div>
-                </div> <!--Hero-->
-       </header><!--Header-->
-       
-       <div class="barra"><!--Barra-->
-          <div class="barra contenedor">
-              <div class="logo">
-                <a href="index.html"> <img src="img/logo.svg" alt="SJWebCamp"></a>
-              </div>
-              <div class="menu-movil">
-                <i class="fa fa-bars"></i> 
-              </div>
-                <nav class="menu">
-                  <a href="conferencia.html">Conferencia</a>
-                  <a href="#">Calendario</a>
-                  <a href="#">Invitados</a>
-                  <a href="registro.html">Reservaciones</a>
-               </nav>
-           </div> <!--Contenedor-->
-       </div> <!--Barra-->
+       <?php include_once 'includes/templates/header.php' ;?>
 
        <section class="seccion contenedor">
          <h2>La Mejor Conferencia de diseño Web en Español</h2>
@@ -305,47 +252,12 @@
          <div class="cuenta-regresiva contenedor">
            <ul class="cuenta-atras">
              <li><p id="dias" class="numero"></p>días</li>
-             <li><p id="horas" class="numero">15</p>horas</li>
-             <li><p id="minutos" class="numero">5</p>minutos</li>
-             <li><p id="segundos" class="numero">30</p>segundos</li>
+             <li><p id="horas" class="numero"></p>horas</li>
+             <li><p id="minutos" class="numero"></p>minutos</li>
+             <li><p id="segundos" class="numero"></p>segundos</li>
            </ul>
          </div>
       </section><!--Seccion de contador de días-->
-
-      <footer class="site-footer"> <!--Footer-->
-        <div class="footer-contenedor">
-          <div class="footer-informacion">
-            <h3>Sobre <span>sjwebcamp</span> </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ea consectetur tenetur vero voluptates sapiente ullam dolorum ratione ab. Similique veniam perferendis sunt magni nemo, quas consectetur eligendi id ipsam.</p>
-          </div>
-          <div class="ultimos-tweets">
-            <h3>Últimos <span>tweets</span> </h3>
-           <p>Lorem ipsum dolor sit amet consectetur <span>@JoseSage</span> Incidunt maxime doloremque consectetur. </p>
-           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iste quo nobis dignissimos <span>@Napis</span></p>
-           <p>Lorem ipsum, <span>@CaMendez</span> amet consectetur adipisicing elit. Porro iste quo nobis dignissimos nulla </p>
-            
-          </div>
-          <div class="menu-redes">
-            <h3>Redes <span>sociales</span> </h3> 
-            <nav class="redes-sociales-footer">
-                <a href="#"> <i class="fab fa-facebook-f" ></i> </a>
-                <a href="#"> <i class="fab fa-twitter" ></i> </a>
-                <a href="#"> <i class="fab fa-instagram" ></i> </a>
-                <a href="#"> <i class="fab fa-youtube" ></i> </a>
-                <a href="#"> <i class="fab fa-pinterest" ></i> </a>   
-               </nav>
-          </div>
-        </div>
-         <p class="copyright">
-           Todos los derechos reservados SJWEBCAMP 2019.
-         </p>
-     
-     
-     
-        </footer><!--Footer-->
- <script src="jquery/jquery-3.3.1.min.js"></script>
- <script src="jquery/jquery.countdown.min.js"></script>
- <script src="js/main.js"></script>  
-  
-</body>
-</html>
+      
+      <?php include_once 'includes/templates/footer.php' ;?>
+      
